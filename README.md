@@ -1,29 +1,57 @@
-Intenção,Prompt Utilizado,Resultado/Dificuldade
-Resumo Executivo,"""Explique o conceito de Desvio Padrão para um CEO que não entende de matemática.""","Sucesso. A IA usou analogia de riscos, o que foi excelente."
-Análise de Erro,"""Quais são os erros comuns ao interpretar o p-valor em um teste A/B?""","Dificuldade. Inicialmente a resposta foi muito técnica. Tive que refinar o prompt pedindo ""exemplos práticos de negócios""."
-Cálculo,"""Com base no texto X, como calculo a projeção de vendas?""",Aprendizado. O NotebookLM é melhor para explicar conceitos do que para cálculos puros; precisei fornecer a fórmula no prompt.
-📖 Miniguia de Estudo (Entrega Final)
-1. Resumo Estruturado
-A estatística para administradores divide-se em três pilares principais abordados neste guia:
+# 📊 Estatística para Administradores: Guia Inteligente com NotebookLM
 
-Descritiva: Organização e resumo de dados históricos.
+Este repositório contém a documentação do projeto desenvolvido para o Desafio de Projeto da **DIO**, focado na criação de um assistente de estudos personalizado utilizando o NotebookLM do Google.
 
-Probabilística: Gestão de incertezas e riscos.
+## 🎯 Contexto e Objetivos
+O objetivo deste projeto foi criar uma IA especialista em **Estatística Aplicada à Administração**. O foco é facilitar a tomada de decisão baseada em dados, traduzindo conceitos complexos para uma linguagem executiva e prática.
 
-Inferencial: Tomar decisões para uma população com base em amostras.
+**Objetivos de estudo:**
+* Dominar a interpretação de indicadores estatísticos em relatórios empresariais.
+* Criar um repositório de consultas rápidas para resolução de problemas de gestão.
 
-2. Glossário de Conceitos-Chave
-Variância: Medida de dispersão que mostra o quão longe os dados estão da média.
+---
 
-Intervalo de Confiança: O grau de certeza de que uma estimativa está correta.
+## 📚 Curadoria de Fontes
+As fontes abaixo foram utilizadas para alimentar a base de conhecimento da IA:
+* **Fonte 1:** [https://youtu.be/Iq1TputJKnE]
+* **Fonte 2:** [https://youtu.be/GDEkkbwvhNg]
+* **Fonte 3:** [https://brasilescola.uol.com.br/matematica/estatistica-1.htm]
 
-Correlação != Causalidade: O entendimento de que dois eventos acontecerem juntos não significa que um causou o outro.
+---
 
-3. Prompts Reutilizáveis
-"Atue como um consultor de dados. Explique como este relatório [Documento X] impacta nossa meta de redução de custos."
+## 🧠 Engenharia de Prompts e "Cicatrizes"
 
-"Crie um quiz de 5 perguntas sobre correlação linear baseando-se no texto 2."
+Abaixo, os testes realizados para refinar as respostas da IA:
 
-"Compare a visão do autor A com o autor B sobre análise preditiva."
+| Intenção | Prompt Utilizado | Resultado/Dificuldade |
+| :--- | :--- | :--- |
+| **Resumo Executivo** | "Explique o conceito de Desvio Padrão para um CEO que não entende de matemática." | **Sucesso.** A IA usou analogia de riscos, o que foi excelente. |
+| **Análise de Erro** | "Quais são os erros comuns ao interpretar o p-valor em um teste A/B?" | **Dificuldade.** A resposta inicial foi técnica demais; precisei pedir exemplos práticos. |
+| **Cálculo** | "Com base nas fontes, como calculo a projeção de vendas?" | **Aprendizado.** A IA explicou a lógica, mas precisei fornecer a fórmula para precisão. |
 
+---
 
+## 📖 Miniguia de Estudo (Entrega Final)
+
+### 1. Resumo Estruturado
+A estatística para administradores divide-se em três pilares principais:
+* **Descritiva:** Organização e resumo de dados históricos (Média, Mediana, Moda).
+* **Probabilística:** Gestão de incertezas e análise de riscos.
+* **Inferencial:** Tomar decisões para uma população inteira com base em pequenas amostras.
+
+### 2. Glossário de Conceitos-Chave
+* **Variância:** Medida de dispersão que mostra o quão longe os dados estão da média.
+* **Intervalo de Confiança:** O grau de certeza (ex: 95%) de que uma estimativa está correta.
+* **Correlação != Causalidade:** O fato de dois eventos ocorrerem juntos não prova que um causou o outro.
+
+### 3. Prompts Reutilizáveis para Revisão
+* *"Atue como um consultor de dados. Explique como os dados destas fontes impactam uma meta de redução de custos."*
+* *"Crie um quiz de 5 perguntas sobre correlação linear baseando-se nos textos carregados."*
+* *"Sintetize os pontos de concordância entre os autores das fontes sobre análise preditiva."*
+
+---
+
+## 🛠️ Como Utilizar
+1. Acesse o seu caderno no [NotebookLM](https://notebooklm.google.com/).
+2. Certifique-se de que as fontes listadas neste repositório estão carregadas.
+3. Utilize os prompts da seção acima para extrair insights estratégicos.
