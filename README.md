@@ -31,7 +31,7 @@ Abaixo, os testes realizados para refinar as respostas da IA:
 
 ---
 
-## 📖 Miniguia de Estudo (Entrega Final)
+## 📖 Miniguia de Estudo - Especialista em Estatística NotebookLM
 
 ### 1. Resumo Estruturado
 A estatística para administradores divide-se em três pilares principais:
